@@ -105,7 +105,7 @@ function addFoods(){
 //change dog image, deduct foodS, updateFoodStock using foodS, set lastFed
 function feedDog(){
   if(foodS > 0){
-  //  dog.image( happyDog);
+    dog.addImage( happyDog);
     foodS--;
     foodObj.updateFoodStock(foodS);
     lastFed = hour();
