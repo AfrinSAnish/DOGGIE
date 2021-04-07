@@ -3,7 +3,7 @@ class Food{
       //  this.foodStock = 20;
         this.lastFed = 0;
 
-        this.image= loadImage("images/milk.png");
+        this.image= loadImage("Images/Milk.png");
     
     }
 
